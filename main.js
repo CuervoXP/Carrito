@@ -94,7 +94,7 @@ const mostrarCarrito = () => {
 
     mostrarFooter(); // Muestro el footer
 
-    localStorage.setItem('carritoDeCompras', JSON.stringify(carrito)); // seteo el item con una key llamada carritoDeCompras y eso lo paso a string
+    localStorage.setItem('carritoDeCompras', JSON.stringify(carrito)); // seteo el item con una key llamada carritoDeCompras y paso a string el carrito
 }
 
 const mostrarFooter = () => {
